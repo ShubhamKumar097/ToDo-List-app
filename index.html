@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+<script src="https://kit.fontawesome.com/a81368914c.js"></script>
+<title>ToDo App</title>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+<body>
+
+<div id="myDIV" class="header">
+<h1><span class="styling"><b>ToDo List</b></span></h1>
+<div class="input_div">
+  <input type="text" id="myInput" placeholder="Add a task here...">
+  <span onclick="newElement()" class="addBtn"><i class="fas fa-plus-circle fa-3x"></i></span>
+  </div>
+</div>
+
+<div class="container">
+<div class="item">
+  <ul id="myUL">
+    <li>The first item is written here.</li>
+    <li class="checked">The added todo list item is here.....       </li>
+  </ul>
+</div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
